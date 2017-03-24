@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.png') }}" type="image/x-icon"/>
+    <title>Search Web</title>
+
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ url_for('static', filename='css/app.css') }}" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Test Project - Search Web</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="main_content">
+        <div id="root"></div>
+    </div>
+</div>
+
+<div class="navbar-fixed-bottom row-fluid">
+    <div class="navbar-inner">
+        <div class="container">
+            2017 © Test Project - Search Web for BB Studio
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery/jquery-3.1.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/react/react.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/react/react-dom.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/react/babel-core.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/react/EventEmitter.js') }}"></script>
+<script type="text/babel" src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+</body>
+</html>

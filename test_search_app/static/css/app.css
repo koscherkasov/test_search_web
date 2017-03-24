@@ -1,0 +1,59 @@
+.none {
+    display: none !important;
+}
+
+.line_through {
+    text-decoration: line-through;
+
+}
+
+body {
+    color: #333;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.navbar {
+    background-color: #2b3643;
+}
+
+.navbar-brand {
+    color: #c6cfda;
+}
+
+a:hover, a:visited {
+    color: #c6cfda;
+    background-color: #3f4f62;
+}
+
+.measured_data {
+    text-align: right;
+    color: #666;
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+th {
+    font-weight: 600;
+}
+
+.main_content {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.not_found_msg {
+    padding-top: 10px;
+}
+
+.navbar-inner {
+    background-color: #3f4f62;
+    color: #b4bcc8;
+}
+
+.navbar-inner .container {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
